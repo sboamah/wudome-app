@@ -1,0 +1,52 @@
+// components/Hero.tsx
+"use client";
+
+import { motion } from "framer-motion";
+
+export default function Hero() {
+  return (
+    <section className="h-screen relative flex items-center justify-center overflow-hidden">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('/ghana-farm.jpg')",
+        }}
+      />
+
+      <div className="absolute inset-0 bg-black/50" />
+
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="relative z-10 text-center text-white px-6"
+      >
+        <h1 className="text-5xl md:text-7xl font-bold max-w-5xl leading-tight">
+          Empowering Farmers and Families in Wudome Peki
+        </h1>
+
+        <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto">
+          Supporting education, sustainable agriculture,
+          women entrepreneurs, and rural development in Ghana.
+        </p>
+
+        <div className="mt-8 flex gap-4 justify-center">
+          <a
+            href="#donate"
+            className="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-2xl font-semibold transition"
+          >
+            Donate Now
+          </a>
+
+          <a
+            href="#projects"
+            className="bg-white/20 backdrop-blur hover:bg-white/30 px-8 py-4 rounded-2xl font-semibold transition"
+          >
+            View Projects
+          </a>
+        </div>
+      </motion.div>
+    </section>
+  );
+}
