@@ -1,4 +1,5 @@
 // components/AboutSection.tsx
+import village from '../images/village.png';
 export default function AboutSection() {
     return (
       <section
@@ -32,7 +33,7 @@ export default function AboutSection() {
   
           <div className="rounded-3xl overflow-hidden shadow-2xl">
             <img
-              src="/village.jpg"
+              src={village.src}
               alt="Village in Ghana"
               className="w-full h-full object-cover"
             />
