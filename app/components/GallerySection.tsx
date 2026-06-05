@@ -3,8 +3,10 @@ import clinicBed from "../images/clinic-bed.png";
 import childTherapy from "../images/child-therapy.png";
 import glasses from "../images/prescription-glasses.png";
 import road from "../images/road.png";
-import solarLamps from  "../images/solar-lamps.png";
-import farm from "../images/farm.png"
+import solarLamps from "../images/solar-lamps.png";
+import farm from "../images/farm.png";
+import supplies from "../images/supplies.png";
+import founder from "../images/founderwchild.jpeg";
 
 const images = [
   { src: clinicBed.src, alt: "Donated bed to the clinic" },
@@ -14,8 +16,10 @@ const images = [
     alt: "Prescription glasses to school children",
   },
   { src: road.src, alt: "Handing over paved road Keh Avenue" },
+  { src: supplies.src, alt: "Provision of school supplies to the preschool" },
   { src: solarLamps.src, alt: "Solar lamps" },
-  { src: farm.src, alt: "Work on school farms" }
+  { src: founder.src, alt: "Dr. Ofori-Okai" },
+  { src: farm.src, alt: "Work on school farms" },
 ];
 
 export default function GallerySection() {
