@@ -50,7 +50,6 @@ export default function DonationSection() {
           <div>
             <p>
               You can also donate directly to Dr. Ofori-Okai by contacting
-              (518)-526-3216 or {" "}
               <a className="underline" href="mailto:Oforiokai@gmail.com">Oforiokai@gmail.com</a>.
             </p>
           </div>
