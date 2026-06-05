@@ -49,7 +49,7 @@ export default function DonationSection() {
 
           <div>
             <p>
-              You can also donate directly to Dr. Ofori-Okai by contacting
+              You can also donate directly to Dr. Ofori-Okai by contacting {" "}
               <a className="underline" href="mailto:Oforiokai@gmail.com">Oforiokai@gmail.com</a>.
             </p>
           </div>
