@@ -2,19 +2,13 @@
 "use client";
 
 import { motion } from "framer-motion";
+import solarLamps from "../images/solar-lamps.png";
 
 export default function Hero() {
   return (
     <section className="h-screen relative flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('/ghana-farm.jpg')",
-        }}
-      />
 
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-cyan-800 opacity-50" />
 
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -28,7 +22,7 @@ export default function Hero() {
 
         <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto">
           Supporting education, sustainable agriculture,
-          women entrepreneurs, and rural development in Ghana.
+          entrepreneurs, and rural development in Ghana.
         </p>
 
         <div className="mt-8 flex gap-4 justify-center">

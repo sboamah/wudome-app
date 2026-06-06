@@ -1,6 +1,6 @@
 // components/ImpactSection.tsx
 const stats = [
-    { number: "50+", label: "Women Supported" },
+    { number: "50+", label: "Entrepreneurs Supported" },
     { number: "50", label: "Computers Donated" },
     { number: "200+", label: "Books Distributed" },
     { number: "1000+", label: "Students Impacted" },

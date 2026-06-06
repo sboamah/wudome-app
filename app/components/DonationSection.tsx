@@ -22,7 +22,7 @@ export default function DonationSection() {
           </p>
         </div>
 
-        <div className="bg-[#f8f5ef] rounded-3xl p-10 shadow-lg">
+        <div className="bg-[#f8f5ef] rounded-3xl p-5 shadow-lg">
           <div className="flex justify-between font-semibold">
             <span>${raised} Raised</span>
             <span>${goal} Goal</span>
@@ -35,7 +35,7 @@ export default function DonationSection() {
             />
           </div>
 
-          <div className="my-2">
+          <div className="my-4">
             <p className="text-sm">Checks should be made payable to:</p>
             <p className="mb-2">Rock Road Chapel Ministries (SCEP)</p>
             <p className="text-sm">Addressed to:</p>
