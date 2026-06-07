@@ -7,6 +7,8 @@ import solarLamps from "../images/solar-lamps.png";
 import farm from "../images/farm.png";
 import supplies from "../images/supplies.png";
 import founder from "../images/founderwchild.jpeg";
+import maleGroup from "../images/male_micro-loan-group.png"
+import womenGroup from "../images/women_micro-loan-group.jpeg"
 
 const images = [
   { src: clinicBed.src, alt: "Donated bed to the clinic" },
@@ -20,6 +22,8 @@ const images = [
   { src: solarLamps.src, alt: "Solar lamps" },
   { src: founder.src, alt: "Dr. Ofori-Okai" },
   { src: farm.src, alt: "Work on school farms" },
+  { src: maleGroup.src, alt: "Male micro-loan group" },
+   { src: womenGroup.src, alt: "Women micro-loan group" },
 ];
 
 export default function GallerySection() {
