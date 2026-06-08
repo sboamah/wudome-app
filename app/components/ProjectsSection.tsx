@@ -6,9 +6,9 @@ const projects = [
         "Providing books, computers, solar lamps, and learning tools for students.",
     },
     {
-      title: "Women Empowerment",
+      title: "Entrepreneurial Empowerment",
       description:
-        "Microloans and soap-making programs for women entrepreneurs.",
+        "Microloans and soap-making programs for entrepreneurs.",
     },
     {
       title: "Farmer Assistance",
