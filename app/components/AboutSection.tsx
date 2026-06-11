@@ -77,16 +77,16 @@ export default function AboutSection() {
                     src={founder.src}
                     alt="Dr. Gabriel Ofori-Okai"
                     className="
-  rounded-3xl
-  shadow-lg
-  w-full
-  h-[250px]
-  sm:h-[350px]
-  md:h-[450px]
-  lg:h-[550px]
-  object-cover
-  object-top
-"
+                    rounded-3xl
+                    shadow-lg
+                    w-full
+                    h-[250px]
+                    sm:h-[350px]
+                    md:h-[450px]
+                    lg:h-[550px]
+                    object-cover
+                    object-top
+                  "
                   />
                 </div>
 
