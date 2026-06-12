@@ -133,8 +133,8 @@ export default function AboutSection() {
                     sm:h-[350px]
                     md:h-[450px]
                     lg:h-[550px]
-                    object-cover
-                    object-top
+                    object-contain
+                    object-center
                   "
                   />
                 </div>
