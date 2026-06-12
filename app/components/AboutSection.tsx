@@ -142,7 +142,7 @@ export default function AboutSection() {
                 <div className="order-1 lg:order-2">
                   <span className="text-green-700 font-semibold">MISSION</span>
 <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold mt-4">
-                    Uniting Generations, Enriching Communities Together
+                    Uniting Generations, Enriching Communities
                   </h3>
                   <p className="mt-4 text-sm sm:text-base text-gray-700 leading-7">
                     Every generation within the community actively takes part in
