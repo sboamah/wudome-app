@@ -2,6 +2,7 @@
 "use client";
 import village from "../images/village.png";
 import founder from "../images/founder.jpeg";
+import logo from "../images/SCEPLogo.png";
 import {
   Carousel,
   CarouselContent,
@@ -100,8 +101,9 @@ export default function AboutSection() {
                   </h3>
 
                   <p className="mt-4 text-sm sm:text-base text-gray-700 leading-7">
-                    Dr. Ofori-Okai was born in Nkawkaw, Ghana. His father was born in Peki
-                    Wudome, creating a lifelong connection to the community.
+                    Dr. Ofori-Okai was born in Nkawkaw, Ghana. His father was
+                    born in Peki Wudome, creating a lifelong connection to the
+                    community.
                   </p>
 
                   <p className="mt-4 text-sm sm:text-base text-gray-700 leading-7">
@@ -109,8 +111,49 @@ export default function AboutSection() {
                     and later worked at the University at Albany, Schenectady
                     International Group, and GE Global Research Center in
                     Niskayuna. After retirement, he dedicated his efforts to
-                    giving back in the community that helped shape his
-                    family.
+                    giving back in the community that helped shape his family.
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+
+            {/* Slide 3 */}
+
+            <CarouselItem>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+                <div className="order-2 lg:order-1">
+                  <img
+                    src={logo.src}
+                    alt="Logo for SCEP"
+                    className="
+                    rounded-3xl
+                    shadow-lg
+                    w-full
+                    h-[250px]
+                    sm:h-[350px]
+                    md:h-[450px]
+                    lg:h-[550px]
+                    object-cover
+                    object-top
+                  "
+                  />
+                </div>
+
+                <div className="order-1 lg:order-2">
+                  <span className="text-green-700 font-semibold">MISSION</span>
+<h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold mt-4">
+                    Uniting Generations, Enriching Communities Together
+                  </h3>
+                  <p className="mt-4 text-sm sm:text-base text-gray-700 leading-7">
+                    Every generation within the community actively takes part in
+                    all our activities, coming together as a unified holistic
+                    team. 
+                  </p>
+                     <p className="mt-4 text-sm sm:text-base text-gray-700 leading-7">
+                     This spirit of collaboration is central to our
+                    organization's mission — the Sustainable Community Enrichment
+                    Project — where inclusivity and teamwork drive all our
+                    endeavors.
                   </p>
                 </div>
               </div>
