@@ -55,7 +55,7 @@ export default function AboutSection() {
                     alt="Village in Ghana"
                     className="
   rounded-3xl
-  shadow-lg
+  shadow-sm
   w-full
   h-[250px]
   sm:h-[350px]
@@ -79,7 +79,7 @@ export default function AboutSection() {
                     alt="Dr. Gabriel Ofori-Okai"
                     className="
                     rounded-3xl
-                    shadow-lg
+                    shadow-sm
                     w-full
                     h-[250px]
                     sm:h-[350px]
@@ -126,8 +126,6 @@ export default function AboutSection() {
                     src={logo.src}
                     alt="Logo for SCEP"
                     className="
-                    rounded-3xl
-                    shadow-lg
                     w-full
                     h-[250px]
                     sm:h-[350px]
