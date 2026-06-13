@@ -22,7 +22,7 @@ export default function Hero() {
 
         <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto">
           Supporting education, sustainable agriculture,
-          entrepreneurs, and rural development in Ghana.
+          entrepreneurs, and rural development.
         </p>
 
         <div className="mt-8 flex gap-4 justify-center">

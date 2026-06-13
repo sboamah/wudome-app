@@ -18,7 +18,7 @@ export default function DonationSection() {
 
           <p className="mt-6 text-gray-700 leading-8">
             Donations support microloans, educational resources, farming
-            equipment, and sustainable agriculture projects in Wudome Peki.
+            equipment, and sustainable agriculture projects in rural communities.
           </p>
         </div>
 

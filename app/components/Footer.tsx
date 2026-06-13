@@ -8,7 +8,7 @@ export default function Footer() {
           </h2>
   
           <p className="mt-4 text-gray-400">
-            Supporting sustainable growth in Ghana through
+            Supporting sustainable growth through
             education, agriculture, and empowerment.
           </p>
   

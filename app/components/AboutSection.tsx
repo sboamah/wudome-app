@@ -39,7 +39,7 @@ export default function AboutSection() {
                   <p className="mt-4 text-sm sm:text-base text-gray-700 leading-7">
                     Founded by Dr. Gabriel Kwadwo Ofori-Okai, this initiative
                     supports peasant farmers, students, and entrepreneurs in
-                    Wudome Peki, Ghana.
+                    Wudome Peki, Ghana and beyond.
                   </p>
 
                   <p className="mt-4 text-sm sm:text-base text-gray-700 leading-7">
@@ -102,7 +102,7 @@ export default function AboutSection() {
 
                   <p className="mt-4 text-sm sm:text-base text-gray-700 leading-7">
                     Dr. Ofori-Okai was born in Nkawkaw, Ghana. His father was
-                    born in Peki Wudome, creating a lifelong connection to the
+                    born in Wudome Peki, creating a lifelong connection to the
                     community.
                   </p>
 
