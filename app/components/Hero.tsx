@@ -12,12 +12,12 @@ export default function Hero() {
 
       <motion.div
         initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: -30 }}
         transition={{ duration: 1 }}
         className="relative z-10 text-center text-white px-6"
       >
-        <h1 className="text-5xl md:text-7xl font-bold max-w-5xl leading-tight">
-          Empowering Farmers and Families in Wudome Peki
+        <h1 className="text-4xl md:text-6xl font-bold max-w-5xl">
+          Empowering Farmers and Families in Rural Communities
         </h1>
 
         <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto">

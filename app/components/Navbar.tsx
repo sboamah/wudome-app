@@ -10,7 +10,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur border-b">
+    <nav className="sticky top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur border-b">
       <div className="container-width flex items-center justify-between py-2 px-4">
         <div className="flex gap-3 items-center justify-between">
         <div>
